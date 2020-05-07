@@ -1,12 +1,12 @@
-def my_collect (languages)
+def my_collect (collection)
   if block_given?
   i = 0
-  collection = []
-    while i < languages.length
-     yield languages[i]
+  collection_a = []
+    while i < collection.length
+     yield collection[i]
      i += 1
   end
-  collection
+  collection_a
  else
 end
 end
