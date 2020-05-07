@@ -7,4 +7,5 @@ if block_given?
   i += 1
   end
   collection
+else
 end
