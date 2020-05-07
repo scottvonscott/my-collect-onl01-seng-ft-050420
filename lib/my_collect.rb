@@ -3,7 +3,8 @@ if block_given?
   i = 0
   collection = []
   while i < languages.length
-    yield languages[i]
+  collection << yield languages[i]
   end
+  collection
 end
-end
+
